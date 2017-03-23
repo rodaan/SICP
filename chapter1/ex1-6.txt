@@ -1,0 +1,1 @@
+The issue with the sqrt-iter is that using it will result in a maximum call stack error. Since creating a new procedure results in if having a normal form of evalution, and using cond which adds more layers to the call stack rather than using the special form if.
